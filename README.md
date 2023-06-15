@@ -6,7 +6,7 @@ provider "azurerm" {
 }
 
 module "appgw_v2" {
-  source = "git::ssh://git@bitbucket.org//terraform-modules.git//terraform-appgw"
+  source = "git::ssh://git@github.com//terraform-modules.git//terraform-appgw"
 
   environment         = "sbx"
   location            = "eastus"
